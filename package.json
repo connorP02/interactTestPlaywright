@@ -1,0 +1,16 @@
+{
+  "name": "pwtests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "chromeTest": "npx playwright test --project=Chromium",
+    "firefoxTest": "npx playwright test --project=Fiirefox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
